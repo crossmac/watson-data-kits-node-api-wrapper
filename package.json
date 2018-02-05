@@ -1,0 +1,35 @@
+{
+  "name": "knowledge_kits_nodejs",
+  "version": "0.1.0",
+  "description": "A Node.js wrapper for Knowledge Kits API",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/watson-data-kits/nodejs"
+  },
+  "author": {
+    "name": "Chris Crossman",
+    "email": "crossman@us.ibm.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "hget": "^3.1.0",
+    "request": "^2.79.0",
+    "querystring": "^5.2.0"
+  },
+  "devDependencies": {
+    "express": "4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.0",
+    "gulp-istanbul": "^1.1.2",
+    "gulp-mocha": "^3.0.1",
+    "gulp-util": "^3.0.8"
+  },
+  "engines": {
+    "node": ">6.10",
+    "npm": ">3.10.10"
+  }
+}
