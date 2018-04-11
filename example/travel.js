@@ -34,5 +34,20 @@ client.authorize(
     client.getCountries(function(error, data){
       console.log(data.results[0].name);
     });
+
+    // Get concepts
+    client.getConcepts(function(error, data){
+      console.log(data);
+    });
+
+    // Get entities
+    client.getEntities(function(error, data){
+      console.log(data);
+    });
+
+    // Get keywords
+    client.getKeywords(function(error, data){
+      console.log(data);
+    });
   }
 );

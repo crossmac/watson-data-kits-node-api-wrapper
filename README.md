@@ -48,6 +48,21 @@ client.authorize(
     client.getCountries(function(error, data){
       console.log(data.results[0].name);
     });
+
+    // Get concepts
+    client.getConcepts(function(error, data){
+      console.log(data);
+    });
+
+    // Get entities
+    client.getEntities(function(error, data){
+      console.log(data);
+    });
+
+    // Get keywords
+    client.getKeywords(function(error, data){
+      console.log(data);
+    });
   }
 );
 ```
@@ -61,3 +76,9 @@ attractions : lists available attractions by location and category.
 categories : lists available categories that can be searched against and the number of attractions at each location.
 
 countries : lists general data on all the countries where the attractions can be found.
+
+concepts : lists general information on the concepts associated with attractions at this location.
+
+entities : lists general information on the entities associated with attractions at this location.
+
+keywords : lists general information on the keywords associated with attractions at this location.
