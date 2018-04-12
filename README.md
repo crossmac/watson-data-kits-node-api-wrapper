@@ -1,4 +1,4 @@
-# Watson Data Kits - knowledge-kits-nodejs
+# Watson Data Kits - watson-data-kits-nodejs
 
 NodeJS library for Watson Data Kits (insert link here).
 

@@ -1,14 +1,14 @@
 {
-  "name": "knowledge_kits_nodejs",
-  "version": "0.1.0",
-  "description": "A Node.js wrapper for Knowledge Kits API",
+  "name": "watson-datakits-nodejs",
+  "version": "0.1.2",
+  "description": "Node JS API SDK package providing programmatic access to the Watson Data Kits API",
   "main": "index.js",
   "scripts": {
     "test": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/watson-data-kits/nodejs"
+    "url": "https://github.com/watson-data-kits/nodejs-sdk"
   },
   "author": {
     "name": "Chris Crossman",
