@@ -1,6 +1,6 @@
 # Watson Data Kits - watson-data-kits-nodejs
 
-NodeJS library for Watson Data Kits (insert link here).
+NodeJS library for Watson Data Kits https://console.bluemix.net/catalog/
 
 ## Installation
 Node v6.10 (or later) and npm are required. (`brew upgrade && brew install node`)

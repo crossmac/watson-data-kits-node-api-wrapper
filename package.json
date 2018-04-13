@@ -1,6 +1,6 @@
 {
-  "name": "watson-datakits-nodejs",
-  "version": "0.1.2",
+  "name": "watson-data-kits",
+  "version": "0.1.5",
   "description": "Node JS API SDK package providing programmatic access to the Watson Data Kits API",
   "main": "index.js",
   "scripts": {
@@ -17,8 +17,8 @@
   "license": "ISC",
   "dependencies": {
     "hget": "^3.1.0",
-    "request": "^2.79.0",
-    "querystring": "^5.2.0"
+    "querystring": "^5.2.0",
+    "request": "^2.85.0"
   },
   "devDependencies": {
     "express": "4.13.4",
